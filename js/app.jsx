@@ -1,9 +1,12 @@
 var React = require('react');
+var Input = require('./input');
 
 module.exports = React.createClass({
   displayName: 'App',
   render: function(){
-    return(<h1>Hello World!</h1>);
+    return(<div className="container">
+      <Input />
+    </div>);
   }
 });
 
