@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = React.createClass({
   displayName: 'Input',
   move: function(event){
-    console.log(event.pageX, event.pageY);
+    this.props.onMove(event.pageX, event.pageY);
   },
   render: function(){
     return(<div className="input"
