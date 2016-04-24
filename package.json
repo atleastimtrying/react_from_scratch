@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/atleastimtrying/react_from_scratch/issues"
   },
-  "homepage": "https://github.com/atleastimtrying/react_from_scratch#readme"
+  "homepage": "https://github.com/atleastimtrying/react_from_scratch#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
