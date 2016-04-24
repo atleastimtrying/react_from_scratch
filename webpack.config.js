@@ -4,10 +4,13 @@ module.exports = {
     path: __dirname,
     filename: "bundle.js"
   },
+  resolve:{
+    extensions: ['', '.js', '.jsx']
+  },
   module: {
     loaders:[
       {
-        test: /\.jsx$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: "babel-loader",
         query:{
