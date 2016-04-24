@@ -1,0 +1,19 @@
+{
+  "name": "react_from_scratch",
+  "version": "1.0.0",
+  "description": "A react environment from the ground up with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/atleastimtrying/react_from_scratch.git"
+  },
+  "author": "Anders Fisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atleastimtrying/react_from_scratch/issues"
+  },
+  "homepage": "https://github.com/atleastimtrying/react_from_scratch#readme"
+}
