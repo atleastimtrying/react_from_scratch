@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+  color:#333;
+}
+
+.container{
+  display:flex;
+  height: 100vh;
+}
+
+.input{
+  flex:1;
+  border-right: 2px solid #333;
+}
+
+.output{
+  flex: 0 0 300px;
+}
